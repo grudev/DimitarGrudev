@@ -1,2 +1,2 @@
-# DimitarGrudev
-DimitarGrudev CV
+# dimitargrudev.github.io
+Dimitar Grudev's CV
