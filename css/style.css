@@ -35,9 +35,10 @@ dd { width: 600px; float: right; }
 dd.clear { float: none; margin: 0; height: 15px; }
 
 .icon-style {
-    border: 0px solid #000000;
+    border: 0px solid #FFFFFF;
     display: inline-block;
-    margin-right: 15px;
-    width: 24px;
+    margin-right: 20px;
+    min-width: 30px;
+    max-width: 100px;
     background-color: #FFFFFF;
 }
