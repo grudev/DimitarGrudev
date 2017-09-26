@@ -33,3 +33,11 @@ dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; 
 dd { width: 600px; float: right; }
 
 dd.clear { float: none; margin: 0; height: 15px; }
+
+.icon-style {
+    border: 0px solid #000000;
+    display: inline-block;
+    margin-right: 15px;
+    width: 24px;
+    background-color: #FFFFFF;
+}
