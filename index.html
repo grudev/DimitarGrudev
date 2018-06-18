@@ -19,6 +19,26 @@
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="stylesheet" href="https://s3.amazonaws.com/icomoon.io/114779/Socicon/style.css?rd5re8">
 
+    <script src="js/docready.js"></script>
+
+    <script type="text/javascript">
+
+        docReady(function() {
+            
+            var videos = document.getElementsByTagName("video");
+
+            for (var i = 0; i < videos.length; i++)
+            {
+                videos[i].play();
+
+                videos[i].addEventListener('click',function(){
+                    this.play();
+                }, false);
+            }
+
+        });
+    </script>
+
 </head>
 
 <body>
@@ -165,7 +185,7 @@
             <dd>
                 <h2>Mobile Apps</h2>
                 <p>Aftercare: iOS app that serves the Dentacoin project. The blockchain solution for the global dental industry.</p>
-                <video width="481" height="270" poster="res/vids/dentacoin-aftercare-ios-app.jpg" preload="auto" autoplay="autoplay" loop="loop" webkit-playsinline>
+                <video width="481" height="270" poster="res/vids/dentacoin-aftercare-ios-app.jpg" preload="auto" autoplay="autoplay" loop="loop" controls>
                     <source src="res/vids/dentacoin-aftercare-ios-app.webm" type="video/webm">
                     <source src="res/vids/dentacoin-aftercare-ios-app.mp4" type="video/mp4">
                 </video>
