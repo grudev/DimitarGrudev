@@ -1,2 +1,2 @@
-# dimitargrudev.github.io
+# grudev.github.io
 Dimitar Grudev's CV
