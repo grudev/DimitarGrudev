@@ -39,6 +39,7 @@ dd.clear { float: none; margin: 0; height: 15px; }
     display: inline-block;
     margin-right: 20px;
     min-width: 30px;
-    max-width: 100px;
+    max-width: 130px;
     background-color: #FFFFFF;
+    color: #999;
 }
